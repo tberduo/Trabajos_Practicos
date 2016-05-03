@@ -1,0 +1,1443 @@
+@import "reset";
+
+html, body  {
+	height: 100%;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}	
+
+header { 
+	height: 10%;
+	
+
+	.menu {
+	background-color: white;
+	margin: auto;
+    height: 100%;
+    width: 80%; 	
+	}
+
+		.menu img {
+	    width: 15%;
+	    margin: 2% 0 2% 5%;
+		}
+
+		.menu ul li a {
+		color:black;
+		text-decoration: none;
+		font-size: 11px;
+		font-weight: bold;
+		text-transform: uppercase;
+		display: inline-block;
+		}
+
+		.listamenu {
+		list-style-type: none;
+		float: right;
+		margin: 3% 0% 3% 0%;
+		height: 20%;
+	    width: 30%;
+
+		}
+			.listamenu li  { 
+		 	display: inline-block;
+		 	margin-right: 8%;
+
+			}
+
+				.contact1 {
+			color:gray;
+			}
+
+}
+
+
+
+#seccion1 {
+
+	background-image: url(
+		"../images/indexbanner-bg3.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 80%;
+	background-position: center;
+	
+
+	.parrafo1 { 
+	width: 70%;
+    margin:auto;
+	}
+	
+		.parrafo1 h1 {
+		font-size: 35px;
+	    font-weight: 700;
+	    color: white;
+	    width: 50%;
+	    display: inline-block;
+	    margin-top: 20%;
+
+		}
+
+		.parrafo1 p {
+		display: inline-block;
+		font-size: 15px;
+		font-weight: 300;
+		line-height: 30px;
+		color:white;
+		width: 45%;
+		margin-top:4%;
+		margin-bottom: 4%;
+	    
+		}
+
+	aside {
+	margin: auto;
+	width: 60%;
+	
+	}
+
+		form {
+		display: block;
+		box-shadow: 0px 0px 1px rgba(0,0,0,0.1);
+		height: 100%;
+		width: 100%;
+		margin-top: 15%;
+		}
+
+		.buscador1 {
+		width: 60%;
+	    text-align: left;
+	    border:none;
+	    padding: 4% 7%;
+		}
+
+		
+		.search {
+		text-transform: uppercase;
+		color: white;
+		background-color: #00adf2;
+		font-weight: 400;
+		font-size: 10px;
+		border: none;
+		padding: 4.1% 7.3%;
+		margin-left: -0.44%;
+		}
+
+
+		.ion-search {
+		color: white;
+		font-size: 11px;
+		}
+
+}
+
+
+#seccion2 {
+	height: 70%;
+	position: relative;
+
+	
+	.contenedors1 {
+	margin: auto;
+    width: 80%;
+    height: 100%;
+
+    }
+
+		article {
+		float: left;
+	    text-align: center;
+	    width: 20%;
+	    margin: 15% 2%;
+	   
+		}
+
+			img{
+		 	display: inline-block;
+		 	width: 40%;
+		    height: 40%;
+		    margin-bottom: 10%;
+			}
+
+	
+			h4 {
+			font-size: 12px;
+			text-transform: uppercase;
+			color: black;
+			font-weight: 700;
+			margin-bottom: 10%;
+
+			}
+
+			p {
+			font-size: 10px;
+			color: grey;
+			font-weight: 300;
+			line-height: 20px;
+			}
+
+
+	
+	.iconos:hover{ 
+    -webkit-transform: scale(1.35);
+    transform: scale(1.35)
+	}
+
+
+	.iconos {
+	 -webkit-transition: 1.3s ease-in-out;
+	    -moz-transition: 1.3s ease-in-out;
+	    -o-transition: 1.3s ease-in-out;
+	    transition: 1.3s ease-in-out;
+
+	}
+
+}
+
+
+
+#seccion3  {
+	height: 100%;
+	position: relative;
+		
+		.s3encabezado {
+		margin:auto;
+		text-align: center;
+		width: 80%;
+		display: block;
+		margin-top: 5%
+		}
+
+			.s3encabezado img {
+			margin-bottom: 3%;
+			}
+
+			.titulo3 {
+			font-size:25px;
+			color: black;
+			font-weight: 700;
+			margin-bottom: 3%;
+			}
+
+			.subtitulo3 {
+				font-size: 15px;
+				font-weight: 300;
+				color: grey;
+				
+			}
+
+
+		.s3subcontenedor {
+		width: 80%;
+		height: 80%;
+		margin: auto;
+		}	
+
+			.s3subcontenedor article {
+			float: left;
+			width: 25%;
+			margin: 6% 4%;
+			
+			}
+
+				.s3sub1 article {
+				display: block;
+				float: right;
+				width:70%;
+				margin-top: 20%;	
+				}
+
+
+					.s3sub1 article img {
+					float: right;
+					display: inline-block;
+					width: 20%;
+					height: 20%;
+					}
+
+					.tizquierda  {
+					display: block;
+					text-align: right;
+					margin: 4% 26% 4% 0%;
+					
+					}
+
+					.tizquierda2  {
+					display: block;
+					text-align: right;
+					margin-top: 10%;
+					margin-right: 25%;
+					
+					}
+
+				.s3sub2 img {
+				display: inline-block;
+				width: 100%;
+				z-index: 1;
+				position: relative;
+				}
+
+				
+
+				.s3sub3 article {
+				display: block;
+				float: left;
+				width:70%;
+				margin-top: 20%;
+				}
+
+					.s3sub3 article img {
+					float: left;
+					display: inline-block;
+					width: 20%;
+					height: 20%;
+					}
+
+					.tderecha  {
+					display: block;
+					text-align: left;
+					margin: 4% 0% 4% 26%;
+					}
+
+					.tderecha2  {
+					display: block;
+					text-align: left;
+					margin-top: 10%;
+				    margin-left: 25%;
+					}
+
+
+						.titulo3a {
+						font-size: 12px;
+						font-weight: 700;
+						color: black;
+						text-transform: uppercase;
+						}
+
+						.parrafo3 {
+						font-size: 10px;
+						color: grey;
+						font-weight: 300;
+						line-height: 15px;
+							
+						}
+
+
+}
+
+
+#seccion4 {
+
+	background-image: url("../images/pricing-bg.jpg");
+	background-repeat: no-repeat;
+	background-size: auto 50%;
+	position: center;	
+	width: 100%;
+	height:140%;
+	position: relative;
+
+		.s4encabezado {
+		margin:auto;
+		text-align: center;
+		width: 80%;
+		display: block;
+		padding-top: 12%;
+		
+		}
+
+			.s4encabezado img {
+			margin-bottom: 3%;
+			}
+
+
+			.titulo4 {
+			font-size:25px;
+			color: black;
+			font-weight: 700;
+			margin-bottom: 3%;
+			}
+
+			.subtitulo4 {
+			font-size: 15px;
+			font-weight: 300;
+			color: grey;
+			}
+
+
+		.s4contenedor {
+		width: 80%;
+		height: 70%;
+	    margin: auto;
+		}
+
+
+			.s4contenedor article {
+			float: left;
+			width: 20%;
+			height: 70%;
+			box-shadow: 0px 0px 6px rgba(0,0,0,0.2);
+			margin:5% 2%;
+			text-align: center;
+			background-color: white;
+
+			}
+
+
+				.titulo4a {
+				font-size: 12px;
+				font-weight: 700;
+				color: grey;
+				text-transform: uppercase;
+				text-align: center;
+				margin-bottom: 5%;
+				margin-top: 30%;
+
+				}
+
+				.subtitulo4a {
+				font-size: 25px;
+				font-weight: 700;
+				color: black;
+				text-align: center;
+				margin-top: 6%;
+				}
+
+					.precio {
+					font-size: 15px;
+					font-weight: 700;
+					color: black;
+					vertical-align: 55%;
+					
+					}
+
+				.subtitulo4b {
+				font-size: 12px;
+				font-weight: 300;
+				color: black;
+				text-align: center;
+				margin-top: 2%;
+				margin-bottom: 10%;
+
+				}
+			
+
+				table {
+				border-top: solid black 1px;
+				margin:auto;
+				}
+
+					td {
+					padding: 10% 6% 6% 6%;
+					} 
+
+						.tablatexto{
+						font-size: 14px;
+						font-weight: 300;
+						color: black;
+						text-align: left;
+						
+						}
+					
+						.ttexto2{
+						font-size: 15px;
+						font-weight: 300;
+						text-align: center;
+						}
+
+
+							.textocyan { 
+							color: #25d4f3;
+							}
+
+							.textoamarillo {
+							color: #f3df0e;
+							}
+
+							.textonaranja{
+							color: #ffae93;
+							}
+
+							.textoanaranjado{
+							color: #f8632b;
+							}
+
+
+				.buttontabla {
+				font-size: 9px;
+				text-transform: uppercase;
+				color: white;
+				background-color: #00adf2;
+				font-weight: 500;
+				border: none;
+				margin-top: 15%;
+				display: inline-block;
+				padding: 10% 15%;
+				border-radius: 5px;
+				}
+
+
+}
+
+
+
+footer {
+	background-color: #142e3f;
+	height: 50%;
+	text-align: center;
+	position: relative;
+
+
+		footer article {
+		text-align: center;
+		margin: auto;
+
+		}
+
+			.textofooter {
+			font-size: 25px;
+			font-weight: 300;
+			color: white;
+			text-align: center;
+			padding: 10% 0;
+			
+			}
+
+				#cantidad {
+				font-size: 25px;
+				font-weight: 300;
+				color: #0aacf7;
+				
+				}
+
+
+		.footermenor{
+		background-color: #091722;
+		height: 30%;
+		
+		}
+
+			.legales {
+			font-size: 9px;
+			font-weight: 300;
+			color: white;
+			text-align: left;
+			float: left;
+			margin: 3% 0% 3% 15%;
+			
+
+			}
+
+		.menuinferior {
+		list-style-type: none;
+		float: right;
+		margin: 3% 10% 3% 0%;
+	   
+		}
+
+
+			footer nav ul {
+			list-style-type: none;
+
+			}
+
+			.menuinferior li  { 
+		 	display: inline;
+		 	margin-right: 8%;
+			}
+			
+				.menuinferior ul li a {
+				color:white;
+				text-decoration: none;
+				font-size: 10px;
+				font-weight: 200;
+				}
+
+				.ion-chevron-up {
+				color:white;
+				text-decoration: none;
+				font-size: 10px;
+				font-weight: 200;
+				}
+}
+
+
+
+@media screen and (max-width:992px) and (min-width:768px) {
+
+header { 
+
+
+		.menu ul li a {
+			font-size: 10px;
+			
+		}
+
+}
+
+
+#seccion1 {
+
+
+		.parrafo1 h1 {
+			font-size: 50px;
+		    width: 100%;
+			}
+
+		.parrafo1 p {
+			width: 60%;
+			}
+
+	aside {
+		width: 92%;
+		}
+		
+
+		.search {		
+		margin-left: -0.5%
+		}
+
+}
+
+
+#seccion2 {
+	height: 100%;
+
+		article {
+		width: 40%;
+		float: none;
+		margin: 10% 2% 3% 2%;
+		display: inline-block;
+		}
+
+			
+			img{
+		 	width: 30%;
+		    height: 30%;
+			}
+
+	
+	.iconos:hover{ 
+	    -webkit-transform: none;
+	    transform: none;
+	}
+
+	.iconos {
+	 -webkit-transition: none;
+	    -moz-transition: none;
+	    -o-transition: none;
+	    transition: none;
+	}
+
+
+}
+
+
+
+#seccion3  {
+	height: 90%;
+	position: relative;
+
+
+			.s3encabezado img {
+			display: none;
+			}
+
+}
+
+
+#seccion4 {
+	background-size: auto 25%;	
+	width: 100%;
+	height:210%;
+
+
+	.s4encabezado {
+	padding-top: 15%;
+	margin-bottom: 15%;
+	}	
+
+
+		.s4encabezado img {
+		display: none;
+		}
+
+
+		.s4contenedor {
+		width: 80%;
+		height: 45%;
+	    
+		}
+
+
+			.s4contenedor article {
+			display: inline-block;
+			float: none;
+			width: 45%;
+			margin: 2% 2% 2% 2%;
+			
+			}
+
+
+				.titulo4a {
+				margin-bottom: 5%;
+				margin-top: 10%;
+
+				}
+
+				.subtitulo4a {
+				font-size: 40px;
+				margin-top: 5%;
+				}
+
+
+					.precio {
+					vertical-align: 105%;
+					}
+
+
+				table {
+				width: 80%;
+				}		
+
+					td {
+					padding: 5% 15% 6% 15%;
+				
+					} 
+
+				.buttontabla {
+	
+				margin-top: 5%;	
+				padding: 4% 28%;
+				letter-spacing: 4px;	
+				}
+}
+
+
+footer {
+		
+	height: 60%;	
+
+			.textofooter {
+			font-size: 30px;
+			}
+		
+				#cantidad {
+				font-size: 30px;
+				font-weight: 500;
+				}
+
+		.footermenor{
+		height: 40%;
+		
+		}
+
+			.legales {
+		
+			text-align: center;
+			float: none;
+			margin: 0% 0% 0% 0%;
+			padding: 3%;
+			
+			}
+
+		.menuinferior {
+		list-style-type: none;
+		float: none;
+		display: inline-block;
+		margin:0% 0% 0% 0%;
+
+		}
+			
+			.menuinferior li {
+			margin: 0% 5% 0% 5%  ;
+			}
+
+				.ion-chevron-up {
+				display: none;
+				}
+}
+
+}
+
+
+
+@media screen and (max-width:768px) and (min-width:501px) {
+
+header { 
+	height: 20%;
+	
+		.menu {
+	    height: 100%;
+	    margin-top: 5%;	
+	    text-align: center;
+		}
+
+
+			.menu img {
+		    width: 25%;
+		    margin: auto;
+		    text-align: center;
+			}
+
+					.menu ul li a {
+
+					font-size: 14px;
+					}
+
+
+			.listamenu {
+			float: none;
+			margin: 2% 0% 0% 0% ;
+			height: 20%;
+		    width: 100%;
+			}
+	
+				.listamenu li  { 
+			 	display: inline-block;
+			 	width: 100%;
+				margin-top: 2%
+				}
+
+	}
+
+
+#seccion1 { 
+		background-image: url(
+			"none");
+		height: 18%;
+		background-repeat: none;
+		background-size: none;
+
+	.parrafo1 { 
+		display: none;
+		}
+
+		.parrafo1 h1 {
+		display: none;
+
+		}
+
+		.parrafo1 p {
+		display: none;
+	    
+		}
+	
+	aside {
+	margin: auto;
+	width: 80%;
+	}
+		
+		form {
+		margin-top: 2%;
+		}
+
+			.buscador1 {
+			width: 62.1%;
+			}			
+}
+
+
+#seccion2 {
+	height: 80%;
+
+
+		article {
+	  	width: 40%;
+	  	float: none;
+	  	margin: 5% 2% 3% 2%;
+	  	display: inline-block;
+		}
+
+			img{
+		 	width: 30%;
+		    height: 30%;
+			}
+
+.iconos:hover{ 
+	    -webkit-transform: none;
+	    transform: none;
+	}
+.iconos {
+ -webkit-transition: none;
+ -moz-transition: none;
+ -o-transition: none;
+ transition: none;
+	}
+
+}
+
+
+#seccion3  {
+	height: 240%;
+	position: relative;
+
+
+			.s3encabezado img {
+			display: none;
+			}
+
+		
+		.s3subcontenedor {
+		width: 80%;
+		height: 80%;
+		margin: auto;
+
+
+		}
+
+			.s3subcontenedor article {
+			float: none;
+			width: 80%;
+			margin: auto;
+			margin-top: 5%;
+			}
+
+
+				.s3sub1 article {
+				display: block;
+				float: none;
+				width:100%;
+				margin-top: 8%;	
+				}
+			
+
+					.s3sub1 article img {
+					float: left;
+					display: inline-block;
+					width: 10%;
+					height: 10%;
+					margin-right: 2%;
+					}
+
+					.tizquierda  {
+					display: inline-block;
+					text-align: left;
+					margin: 4% 0% 4% 0%;
+					
+					}
+
+					.tizquierda2  {
+					display: inline-block;
+			    	text-align: left;
+			    	margin-top: 2%;
+			    	margin-left: 12%;
+					
+					}
+
+				.s3sub2 img {
+				display: inline-block;
+			    width: 50%;
+			    z-index: 0;
+			    padding: 0% 35% 0% 35%;
+				}	
+
+
+			.s3sub3 article {
+			display: block;
+			float: none;
+			width:100%;
+			margin-top: 10%;
+			}
+
+
+
+				.s3sub3 article img {
+				float: left;
+				display: inline-block;
+				width: 10%;
+				height: 10%;
+				margin-right: 2%;
+				}
+
+				.tderecha  {
+				display: inline-block;
+				text-align: left;
+				margin: 4% 0% 4% 0%;
+				}
+
+				.tderecha2  {
+				display: inline-block;
+				text-align: left;
+				margin-top: 2%;
+		    	margin-left: 12%;
+				}
+
+}
+
+
+#seccion4 {
+	background-size: auto 25%;	
+	width: 100%;
+	height:210%;
+
+
+		.s4encabezado {
+		padding-top: 15%;
+		margin-bottom: 25%;
+		
+		}
+
+			.s4encabezado img {
+			display: none;
+			}
+	
+
+		.s4contenedor {
+		width: 80%;
+		height: 45%;
+	    
+		}
+
+			.s4contenedor article {
+			display: inline-block;
+			float: none;
+			width: 45%;
+			margin: 2% 2% 2% 2%;
+			
+			}
+
+
+				.titulo4a {
+				margin-bottom: 5%;
+				margin-top: 10%;
+
+				}
+
+				.subtitulo4a {
+				font-size: 40px;
+				margin-top: 5%;
+				}
+
+
+					.precio {
+					vertical-align: 105%;
+					}
+				
+				table {
+				width: 80%;
+				}
+
+					td {
+					padding: 5% 15% 6% 15%;
+					}
+
+				.buttontabla {
+	
+				margin-top: 5%;
+				
+				padding: 4% 20%;
+				letter-spacing: 4px;
+				
+				}
+
+}
+
+
+footer {
+	height: 65%;
+
+			.textofooter {
+			font-size: 32px;
+			padding: 10% 5%;
+			line-height:34px;
+			}
+
+				#cantidad {
+				font-size: 32px;
+				font-weight: 500;
+				}
+
+
+		.footermenor{
+		height: 45%;
+		
+		}
+
+			.legales {
+		
+			text-align: center;
+			float: none;
+			margin: 0% 0% 0% 0%;
+			padding: 3%;
+			}
+
+
+			.menuinferior {
+			list-style-type: none;
+			float: none;
+			display: inline-block;
+			margin:0% 0% 0% 0%;
+
+			}
+
+				.menuinferior li {
+				margin: 0% 5% 0% 5%  ;
+				}
+
+				.ion-chevron-up {
+				display: none;
+				}
+}
+
+}
+
+
+@media screen and (max-width:501px) and (min-width:270px) {
+
+header { 
+	height: 20%;
+	}
+
+		.menu {
+		height: 100%;
+		margin-top: 10%;	
+		text-align: center;
+		}
+		
+			.menu img {
+		    width: 35%;
+		    margin: auto;
+		    text-align: center;
+			}
+		
+						.menu ul li a {
+
+						font-size: 14px;
+						}
+
+			.listamenu {
+			float: none;
+			margin: 2% 0% 0% 0% ;
+			height: 20%;
+		    width: 100%;
+
+			}
+
+				.listamenu li  { 
+			 	display: inline-block;
+			 	width: 100%;
+				margin-top: 2%
+				}
+
+
+#seccion1 { 
+	background-image: url(
+			"none");
+	height: 15%;
+	background-repeat: none;
+	background-size: none;
+
+		.parrafo1 { 
+		display: none;
+		}
+
+			.parrafo1 h1 {
+			display: none;
+
+			}
+
+			.parrafo1 p {
+			display: none;
+		    
+			}
+		
+		aside {
+		margin: auto;
+		width: 80%;
+		}
+
+			form {
+			margin-top: 3%;
+			}
+
+				.buscador1 {
+				width: 57%;
+				}
+
+}
+
+
+#seccion2 {
+	height: 130%;
+
+			article {
+	  		width: 100%;
+	  		float: none;
+	 		margin: 10% auto;
+	  		display: block;
+			}
+
+				#seccion2 article h4 {
+				margin-bottom: 5%;
+				}
+
+				img{
+			 	width: 20%;
+			    height: 20%;
+			    margin-bottom: 5%
+				}
+
+
+.iconos:hover{ 
+-webkit-transform: none;
+transform: none;
+}
+
+.iconos {
+-webkit-transition: none;
+-moz-transition: none;
+-o-transition: none;
+ transition: none;
+
+}
+
+}
+
+
+#seccion3  {
+	height: 190%;
+	position: relative;
+
+
+			.s3encabezado img {
+			display: none;
+			}
+
+		.s3subcontenedor {
+		width: 80%;
+		height: 80%;
+		margin: auto;
+		}
+
+			.s3subcontenedor article {
+			float: none;
+			width: 80%;
+			margin: auto;
+			margin-top: 10%;
+			}
+
+					.s3sub1 article {
+					display: block;
+					float: none;
+					width:100%;
+					margin-top: 10%;	
+					}
+
+						.s3sub1 article img {
+						float: left;
+						display: inline-block;
+						width: 10%;
+						height: 10%;
+						margin-right: 2%;
+						}
+
+						.tizquierda  {
+						display: inline-block;
+						text-align: left;
+						margin: 4% 0% 4% 0%;
+						
+						}
+
+						.tizquierda2  {
+						display: inline-block;
+				    	text-align: left;
+				    	margin-top: 2%;
+				    	margin-left: 12%;
+						
+						}
+					
+					.s3sub2 img {
+					display: inline-block;
+				    width: 50%;
+				    z-index: 0;
+				    padding: 0% 25% 0% 25%;
+				    margin: 5%;
+					}
+
+
+					.s3sub3 article {
+					display: block;
+					float: none;
+					width:100%;
+					margin-top: 10%;
+					}
+
+
+
+						.s3sub3 article img {
+						float: left;
+						display: inline-block;
+						width: 10%;
+						height: 10%;
+						margin-right: 2%;
+						}
+
+						.tderecha  {
+						display: inline-block;
+						text-align: left;
+						margin: 4% 0% 4% 0%;
+						}
+
+						.tderecha2  {
+						display: inline-block;
+						text-align: left;
+						margin-top: 2%;
+				    	margin-left: 12%;
+						}
+
+}
+
+
+#seccion4 {
+	background-size: auto 15%;	
+	width: 100%;
+	height:210%;
+
+		.s4encabezado {
+		padding-top: 15%;
+		margin-bottom: 25%;
+		
+		}
+
+
+			.s4encabezado img {
+			display: none;
+			}
+
+		.s4contenedor {
+		width: 80%;
+		height: 80%;
+	    
+		}
+
+			.s4contenedor article {
+			display: inline-block;
+			float: none;
+			width: 45%;
+			height: 40%;
+			margin: 5% 2% 5% 2%;
+			
+			}
+
+				.titulo4a {
+				margin-bottom: 6%;
+				margin-top: 11%;
+
+				}
+
+				.subtitulo4a {
+				font-size: 40px;
+				margin-top: 5%;
+				}
+
+
+					.precio {
+					vertical-align: 105%;
+					}
+
+				
+				table {
+				width: 75%;
+				}
+
+					td {
+					padding: 10% 15% 6% 15%;
+					} 
+
+				.buttontabla {
+	
+				margin-top: 9%;
+				
+				padding: 6% 11%;
+				letter-spacing: 4px;
+				
+				}	
+}
+			
+footer {
+	height: 40%;
+
+			.textofooter {
+			font-size: 15px;
+			padding: 10% 2%;
+			
+			}
+
+				#cantidad {
+				font-size: 15px;
+				font-weight: 500;
+				}
+
+
+		.footermenor{
+		height: 45%;
+		}
+			.legales {
+			text-align: center;
+			float: none;
+			margin: 0% 0% 0% 0%;
+			padding: 3%;
+			
+			}
+
+			.menuinferior {
+			list-style-type: none;
+			float: none;
+			display: inline-block;
+			margin:0% 0% 0% 0%;
+
+			}
+
+				.menuinferior li {
+				margin: 0% 5% 0% 5%  ;
+				}
+
+					.ion-chevron-up {
+					display: none;
+					}
+
+
+
+
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
